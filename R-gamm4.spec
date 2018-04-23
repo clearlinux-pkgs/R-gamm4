@@ -4,7 +4,7 @@
 #
 Name     : R-gamm4
 Version  : 0.2.5
-Release  : 4
+Release  : 5
 URL      : https://cran.r-project.org/src/contrib/gamm4_0.2-5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/gamm4_0.2-5.tar.gz
 Summary  : Generalized Additive Mixed Models using 'mgcv' and 'lme4'
