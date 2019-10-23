@@ -4,7 +4,7 @@
 #
 Name     : R-gamm4
 Version  : 0.2.5
-Release  : 25
+Release  : 26
 URL      : https://cran.r-project.org/src/contrib/gamm4_0.2-5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/gamm4_0.2-5.tar.gz
 Summary  : Generalized Additive Mixed Models using 'mgcv' and 'lme4'
@@ -13,6 +13,7 @@ License  : GPL-2.0+
 Requires: R-lme4
 BuildRequires : R-lme4
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 function gamm() from 'mgcv', using 'lme4' for estimation.
@@ -25,10 +26,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1569358267
+export SOURCE_DATE_EPOCH=1571835183
 
 %install
-export SOURCE_DATE_EPOCH=1569358267
+export SOURCE_DATE_EPOCH=1571835183
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
